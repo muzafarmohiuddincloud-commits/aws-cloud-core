@@ -1,51 +1,86 @@
-## 🌩️ Cloud & Linux Infrastructure Foundations
+# ☁️ Cloud Internship Preparation Journey
 
-- Documenting my hands-on learning journey in Cloud Computing and Linux infrastructure
-- Focused on building strong cloud fundamentals before exploring advanced AWS services
+This repository documents my structured preparation toward becoming internship-ready in Cloud Computing (AWS + Linux).
 
-## ☁️ Cloud Fundamentals
+My focus is not just theory, but practical deployment, security understanding, and real-world troubleshooting.
 
-- Learned core cloud computing concepts and infrastructure benefits
-- Studied cloud service models:
-  - IaaS (Infrastructure as a Service)
-  - PaaS (Platform as a Service)
-  - SaaS (Software as a Service)
-- Understood abstraction of compute, storage, and networking resources
+---
 
-## 🖥️ Virtual Server Deployment
+## 🎯 Objective
 
-- Created a cloud provider account
-- Enabled Two-Factor Authentication (2FA)
-- Deployed a Linux virtual machine
-- Connected to the server using SSH via PuTTY (Windows)
+To build strong foundational skills required for a Cloud / DevOps Internship role within 60 days by focusing on:
 
-## 🔐 SSH & Linux Security
+- Hands-on AWS deployments
+- Linux command-line confidence
+- Basic networking understanding
+- Secure configuration practices
+- Clear documentation of work
 
-- Implemented SSH key-based authentication
-- Created `.ssh` directory for secure key storage
-- Configured correct Linux file permissions
-- Added SSH public key to `authorized_keys`
-- Secured remote server access
+---
 
-## 🧠 Key Learning
+## 🧠 Core Skills Being Developed
 
-- Learned Linux permission structure
-- `700` permission for `.ssh` directory
-- `600` permission for `authorized_keys`
-- Understood how incorrect permissions can break SSH authentication
+### 1️⃣ AWS Fundamentals
+- EC2 (Launch, Security Groups, Key Pairs)
+- S3 (Static Website Hosting)
+- IAM (Users, Roles, Policies)
+- VPC Basics (Public vs Private Subnets)
+- Understanding AWS Global Infrastructure
 
-## 🔄 Cloud Concept Mapping
+### 2️⃣ Linux & Server Management
+- SSH access into EC2
+- Package installation (Apache / Nginx)
+- File permissions (chmod, chown)
+- Service management (systemctl)
+- Checking logs and troubleshooting
+- Deploying static websites manually
 
-- Linode VM → AWS EC2
-- Linode Firewall → EC2 Security Groups
-- Linode TFA → AWS MFA
-- SSH Access → EC2 SSH / Instance Connect
+### 3️⃣ Networking Basics
+- What is a Security Group?
+- Difference between Security Group & NACL
+- Port 22 (SSH), Port 80 (HTTP)
+- Public IP vs Private IP
 
-## 🐧 Next Learning Phase
+### 4️⃣ Deployment Practice
+- Hosting HTML page on EC2
+- Restarting services without tutorials
+- Debugging deployment errors
+- Secure server setup (no root login, limited access)
 
-- Linux filesystem structure
-- Directory navigation
-- User and group management
-- Creating non-root users
-- Securing user accounts
-- Disabling root SSH login
+---
+
+## 📂 Repository Structure
+
+- `cloud-basics.md` → Core cloud concepts (IaaS, PaaS, SaaS)
+- `ec2.md` → EC2 deployment notes
+- `iam.md` → IAM users, roles, policies
+- `linux.md` → Linux command-line practice
+- `s3.md` → Static website hosting
+
+---
+
+## 🚀 Current Goal
+
+By the end of this preparation:
+- Deploy EC2 → Install Nginx → Host website without tutorial
+- Configure IAM securely
+- Explain core AWS services confidently in interviews
+- Build 3 internship-ready cloud projects
+
+---
+
+## 🛠 Tools Used
+
+- AWS Management Console
+- Ubuntu (EC2)
+- SSH
+- Nginx / Apache
+- GitHub (Documentation & Version Control)
+
+---
+
+## 📈 Mindset
+
+Learning by building.
+Breaking things and fixing them.
+No passive content consumption.
