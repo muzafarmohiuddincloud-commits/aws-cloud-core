@@ -1,4 +1,4 @@
-- This repository documents my learning in Cloud Computing and Linux infrastructure
+- THIS REPOSITORY DOCUMENT MY LEARNING IN CLOUD COMPUTING AND LINUX INFRASTRUCTURE
 - Focused on building strong cloud fundamentals before learning advanced AWS services
 - Learned core cloud computing concepts and benefits
 - Studied cloud service models: IaaS, PaaS, and SaaS
