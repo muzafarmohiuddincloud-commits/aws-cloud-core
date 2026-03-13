@@ -47,6 +47,12 @@ To build strong foundational skills required for a Cloud / DevOps Internship rol
 - Debugging deployment errors
 - Secure server setup (no root login, limited access)
 
+### 5️⃣ linode fundamentals
+- creating and managing linode instances
+- SSH server access
+- Basic firewall configuration
+- Deploying a simple web server
+- Understanding cloud provider differences ( aws and linode )
 ---
 
 ## 📂 Repository Structure
